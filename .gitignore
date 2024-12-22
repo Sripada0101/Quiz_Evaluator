@@ -1,0 +1,16 @@
+# Ignore compiled files
+*.o
+*.out
+*.exe
+
+# Ignore generated files by Lex and Yacc
+lex.yy.c
+y.tab.c
+y.tab.h
+
+# Ignore editor-specific files
+.swp
+.DS_Store
+
+# Ignore the binary/executable file
+quiz_evaluator

@@ -1,0 +1,63 @@
+QUIZ "Knowledge Booster Quiz"
+THRESHOLD 2
+
+QUESTION "What is 5 + 3?"
+TYPE NUMERIC
+CORRECT 8
+
+QUESTION "What is the capital of France?"
+TYPE MCQ
+OPTIONS "Paris" "Berlin" "Rome" "Madrid"
+CORRECT "Paris"
+
+QUESTION "Fill in the blank: Water boils at ____ degrees Celsius."
+TYPE FILL_IN_BLANK
+CORRECT "100"
+
+QUESTION "Is the Earth flat?"
+TYPE TRUE_FALSE
+CORRECT "FALSE"
+
+QUESTION "What is 12 divided by 4?"
+TYPE NUMERIC
+CORRECT 3
+
+QUESTION "National Bird of India is ____?"
+TYPE FILL_IN_BLANK
+CORRECT "Peacock"
+
+QUESTION "Which planet is known as the Red Planet?"
+TYPE MCQ
+OPTIONS "Earth" "Venus" "Mars" "Jupiter"
+CORRECT "Mars"
+
+QUESTION "Is 20 + 20 equal to 40?"
+TYPE TRUE_FALSE
+CORRECT "TRUE"
+
+QUESTION "What is 7 multiplied by 6?"
+TYPE NUMERIC
+CORRECT 42
+
+QUESTION "What is a Lexical Analyzer?"
+TYPE MCQ
+OPTIONS "Parses tokens" "Generates tokens" "Compiles code" "Optimizes code"
+CORRECT "Generates tokens"
+
+QUESTION "Fill in the blank: In a compiler, ____ is responsible for syntax analysis."
+TYPE FILL_IN_BLANK
+CORRECT "Parser"
+
+QUESTION "True or False: A DFA is used in lexical analysis."
+TYPE TRUE_FALSE
+CORRECT "TRUE"
+
+QUESTION "Which of these is also known as look-ahead LR parser?"
+TYPE MCQ
+OPTIONS "SLR" "LR" "LLR" "None"
+CORRECT "LLR"
+
+QUESTION "Which is the most powerful parser?"
+TYPE MCQ
+OPTIONS "Operator Precedence" "SLR" "CLR" "LALR"
+CORRECT "CLR"
